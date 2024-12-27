@@ -3,7 +3,7 @@ kind: K6
 metadata:
   name: k6-load-test
 spec:
-  parallelism: 4
+  parallelism: 1
   script:
     configMap:
       name: graphql-load-test
