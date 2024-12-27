@@ -8,3 +8,4 @@ spec:
     configMap:
       name: graphql-load-test
       file: script.js
+  arguments: --out csv=results.csv
