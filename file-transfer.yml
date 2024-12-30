@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: graphql-file-transfer
+spec:
+  containers:
+    - name: default
+      image: busybox
+      volumeMounts:
+       - mountPath: /mnt/data
+         name: graphql-load-test-volume
+  volumes:
+    - name: graphql-load-test-volume
+      persistentVolumeClaim:
+        claimName: graphql-load-test

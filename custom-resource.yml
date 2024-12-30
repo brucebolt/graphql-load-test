@@ -5,7 +5,8 @@ metadata:
 spec:
   parallelism: 1
   script:
-    configMap:
+    volumeClaim:
       name: graphql-load-test
+      readOnly: false
       file: script.js
-  arguments: --out csv=results.csv
+  arguments: --out csv=/test/results.csv
