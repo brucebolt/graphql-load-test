@@ -7,6 +7,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '0s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -18,6 +19,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '60s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -29,6 +31,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '120s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -40,6 +43,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '180s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -51,6 +55,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '240s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -62,6 +67,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '300s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -73,6 +79,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '360s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -84,6 +91,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '420s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -95,6 +103,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '480s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -106,6 +115,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '540s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -117,6 +127,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '600s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -128,6 +139,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '660s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -139,6 +151,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '720s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -150,6 +163,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '780s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -161,6 +175,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '840s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -172,6 +187,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '900s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -183,6 +199,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '960s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -194,6 +211,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1020s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -205,6 +223,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '1080s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -216,6 +235,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1140s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -227,6 +247,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '1200s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -238,6 +259,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1260s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -249,6 +271,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '1320s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -260,6 +283,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1380s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -271,6 +295,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '1440s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -282,6 +307,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1500s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -293,6 +319,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '1560s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -304,6 +331,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1620s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -315,6 +343,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '1680s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -326,6 +355,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1740s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'false',
@@ -337,6 +367,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 500,
       duration: '60s',
+      startTime: '1800s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -348,6 +379,7 @@ export const options = {
       executor: 'constant-vus',
       vus: 25,
       duration: '60s',
+      startTime: '1860s',
       exec: 'govuk_test',
       env: {
         GRAPHQL: 'true',
@@ -359,6 +391,6 @@ export const options = {
 }
 
 export function govuk_test() {
-  const res = http.get(`http://${__ENV.APP_NAME}.apps.svc.cluster.local${__ENV.BASE_PATH}/?graphql=${__ENV.GRAPHQL}`);
+  const res = http.get(`https://www-origin.staging.publishing.service.gov.uk${__ENV.BASE_PATH}/?graphql=${__ENV.GRAPHQL}`);
   sleep(1);
 }
