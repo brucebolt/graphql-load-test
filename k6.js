@@ -2,12 +2,10 @@ import http from "k6/http";
 import { sleep } from "k6";
 
 const data = JSON.parse(open("./data.json"));
-
 const scenarios = {};
-
 const baseScenarioOptions = {
   executor: "constant-vus",
-  duration: "60s",
+  duration: "5s",
   exec: "govuk_test",
 };
 
@@ -45,4 +43,4 @@ function govuk_test() {
   sleep(1);
 }
 
-export { options, govuk_test };
+export { govuk_test, options };

@@ -19,5 +19,5 @@ end
 FileUtils.mkdir_p("summaries")
 
 scenarios.first(2).each do |scenario|
-  `SCENARIO=#{scenario} k6 run script.js --summary-export summaries/#{scenario}_summary.json`
+  `SCENARIO=#{scenario} k6 run k6.js --summary-export summaries/#{scenario}_summary.json`
 end
