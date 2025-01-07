@@ -5,13 +5,17 @@ const data = JSON.parse(open("./data.json"));
 
 const scenarios = {};
 
-for (const vus of data.vus) {
-  for (const page of data.pages) {
+const baseScenarioOptions = {
+  executor: "constant-vus",
+  duration: "60s",
+  exec: "govuk_test",
+};
+
+for (const page of data.pages) {
+  for (const vus of data.vus) {
     scenarios[`${page.name}_${vus}`] = {
-      executor: "constant-vus",
+      ...baseScenarioOptions,
       vus,
-      duration: "60s",
-      exec: "govuk_test",
       env: {
         GRAPHQL: "false",
         BASE_PATH: page.basePath,
@@ -19,10 +23,8 @@ for (const vus of data.vus) {
     };
 
     scenarios[`${page.name}_${vus}_graphql`] = {
-      executor: "constant-vus",
+      ...baseScenarioOptions,
       vus,
-      duration: "60s",
-      exec: "govuk_test",
       env: {
         GRAPHQL: "true",
         BASE_PATH: page.basePath,
