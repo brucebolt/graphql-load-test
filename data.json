@@ -1,0 +1,13 @@
+{
+  "pages": [
+    { "name": "news_story", "basePath": "/government/news/government-financial-boost-for-small-and-medium-housebuilders"},
+    { "name": "press_release", "basePath": "/government/news/a-very-merry-fishmas-for-south-east-anglers"},
+    { "name": "government_response", "basePath": "/government/news/new-child-car-seat-rules-no-change-for-existing-booster-seats"},
+    { "name": "world_news_story", "basePath": "/government/news/british-high-commission-marks-his-majesty-king-charles-iiis-birthday-with-brilliantly-british-celebrations"},
+    { "name": "role_1", "basePath": "/government/ministers/prime-minister"},
+    { "name": "role_2", "basePath": "/government/ministers/secretary-of-state-for-culture-media-and-sport--3"},
+    { "name": "role_3", "basePath": "/government/ministers/captain-of-the-kings-bodyguard-of-the-yeoman-of-the-guard-lords-deputy-chief-whip"},
+    { "name": "ministers_index", "basePath": "/government/ministers"}
+  ],
+  "vus": [25, 50, 100, 200, 400, 800]
+}

@@ -1,12 +1,12 @@
 import http from "k6/http";
 import { sleep } from "k6";
 
-const pages = JSON.parse(open("./pages.json"));
+const data = JSON.parse(open("./data.json"));
 
 const scenarios = {};
 
-for (const vus of [25, 50, 100, 200, 400, 800]) {
-  for (const page of pages) {
+for (const vus of data.vus) {
+  for (const page of data.pages) {
     scenarios[`${page.name}_${vus}`] = {
       executor: "constant-vus",
       vus,
