@@ -4,8 +4,9 @@ import { sleep } from "k6";
 const data = JSON.parse(open("./data.json"));
 const scenarios = {};
 const baseScenarioOptions = {
-  executor: "constant-vus",
-  duration: "60s",
+  executor: "per-vu-iterations",
+  maxDuration: "60s",
+  iterations: 1,
   exec: "govuk_test",
 };
 
