@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require "json"
-require "pry"
 require "fileutils"
 
 data = JSON.parse(File.read("data.json"))
