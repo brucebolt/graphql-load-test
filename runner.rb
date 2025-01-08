@@ -21,4 +21,5 @@ scenarios.each do |scenario|
   puts "\n#{Time.now} Starting scenario: #{scenario}"
   `SCENARIO=#{scenario} k6 run k6.js --summary-export summaries/#{scenario}_summary.json`
   puts "#{Time.now} Finished scenario: #{scenario}"
+  sleep(30)
 end
