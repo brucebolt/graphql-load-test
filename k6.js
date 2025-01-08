@@ -37,9 +37,14 @@ const options = {
 };
 
 function govuk_test() {
-  const res = http.get(
-    `https://www-origin.staging.publishing.service.gov.uk${__ENV.BASE_PATH}/?graphql=${__ENV.GRAPHQL}`
-  );
+  let url = `https://www-origin.staging.publishing.service.gov.uk${__ENV.BASE_PATH}`;
+
+  if (__ENV.GRAPHQL === "true") url += `?graphql=${__ENV.GRAPHQL}`
+
+  console.log(url);
+
+  const res = http.get(url);
+
   sleep(1);
 }
 
