@@ -5,7 +5,7 @@ const data = JSON.parse(open("./data.json"));
 const scenarios = {};
 const baseScenarioOptions = {
   executor: "constant-vus",
-  duration: "5s",
+  duration: "6s",
   exec: "govuk_test",
 };
 
