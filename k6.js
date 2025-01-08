@@ -41,8 +41,6 @@ function govuk_test() {
 
   if (__ENV.GRAPHQL === "true") url += `?graphql=${__ENV.GRAPHQL}`
 
-  console.log(url);
-
   const res = http.get(url);
 
   sleep(1);
